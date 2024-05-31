@@ -21,9 +21,6 @@ O programa fornecerá a recomendação do modelo mais adequado com base nas cara
 sobre por que esse modelo específico foi escolhido com base nos critérios estabelecidos pelo cliente, utilizando informações sobre os modelos 
 Claude 3 disponíveis na plataforma Amazon Bedrock. Se nenhum modelo atender aos critérios, o programa informará que nenhum modelo foi encontrado.
 '''
-# Biblioteca
-import sys
-
 class ModeloIA:
     def __init__(self, nome, desempenho, velocidade, custo, capacidades):
         self.nome = nome
